@@ -1,0 +1,10 @@
+part1/ExecutionPart1.java
+ part1.ExecutionPart1
+classes/Estado.java
+ classes.Estado
+classes/Aluno.java
+ classes.Aluno
+part2/ExecutionPart2.java
+ part2.ExecutionPart2
+part3/ExecutionPart3.java
+ part3.ExecutionPart3
