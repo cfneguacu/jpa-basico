@@ -14,7 +14,7 @@ import java.util.List;
 public class ExecutionPart3 {
 
     public static void main(String[] args) {
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Part2-DTO");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Exemplo-DTO");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
         Estado estadoParaAdicionar = new Estado("Rio de Janeiro", "RJ");
