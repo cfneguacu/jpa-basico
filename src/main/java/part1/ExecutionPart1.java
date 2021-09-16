@@ -11,7 +11,7 @@ public class ExecutionPart1 {
 
     public static void main(String[] args) {
 
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("part1-DTO");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Exemplo-DTO");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         Estado estadoParaAdicionar = new Estado("Rio de Janeiro","RJ");
         Aluno alunoParaAdicionar = new Aluno("Pedro",30,estadoParaAdicionar);
